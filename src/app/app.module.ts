@@ -7,6 +7,7 @@ import { DashboardModule } from './features/dashboard/dashboard.module';
 import { DashboardComponent } from './features/dashboard/components/dashboard/dashboard.component';
 import { SettingsComponent } from './features/settings/components/settings/settings.component';
 import { UsersComponent } from './features/users/users/users.component';
+import { BreadcrumbsComponent } from './shared/components/breadcrumbs/breadcrumbs.component';
 
 
 
@@ -14,7 +15,8 @@ import { UsersComponent } from './features/users/users/users.component';
   declarations: [
     AppComponent,
     SettingsComponent,
-    UsersComponent
+    UsersComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,

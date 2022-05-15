@@ -1,9 +1,2 @@
 Angular Page
-<nav>
-    <ul>
-        <li><a routerLink="/dashboard">Dashboard</a></li>
-        <li><a routerLink="/users">Users</a></li>
-        <li><a routerLink="/settings">Settings</a></li>
-    </ul>
-</nav>
-<router-outlet></router-outlet>
+<app-breadcrumbs (chosen)="redirectTo($event)" [breadcrumbs]="breadcrumbs" ></app-breadcrumbs>>
